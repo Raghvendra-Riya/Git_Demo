@@ -32,6 +32,7 @@ public class SwitchToSpecificWindow {
 
         List<String> windlist=new ArrayList<>(driver.getWindowHandles());
           driver.switchTo().window(windlist.get(6));
+          //haaaaaaa
        
 	}
 }
