@@ -27,7 +27,15 @@ public class SwitchToSpecificWindow {
         driver.findElement(By.xpath("//a[contains(@href,'https://www.youtube.com/c/OrangeHRMInc')]")).click();
 
         List<String> windlist=new ArrayList<>(driver.getWindowHandles());
+<<<<<<< HEAD
         driver.switchTo().window(windlist.get(3));  
+=======
+<<<<<<< HEAD
+        driver.switchTo().window(windlist.get(10));
+=======
+        driver.switchTo().window(windlist.get(3));
+>>>>>>> 663fe38b5dd6d666475e6dde95a346c57ca32733
+>>>>>>> 5705c1eb6924ed4055a26f97e8afde4dc7a65b92
         System.out.println("finally swithed to second tab:");
        
       
