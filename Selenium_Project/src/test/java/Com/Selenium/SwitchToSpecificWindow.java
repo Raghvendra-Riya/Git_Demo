@@ -26,7 +26,7 @@ public class SwitchToSpecificWindow {
 		Thread.sleep(4000);
         driver.findElement(By.xpath("//a[contains(@href,'https://www.linkedin.com/company/orangehrm/mycompany/')]")).click();
         driver.findElement(By.xpath("(//a[contains(@href,'https://www.facebook.com/OrangeHRM/')])[1]")).click();
-        driver.findElement(By.xpath("(//a[contains(@href,'https://www.facebook.com/OrangeHRM/')])[2]")).click();
+//        driver.findElement(By.xpath("(//a[contains(@href,'https://www.facebook.com/OrangeHRM/')])[2]")).click();
         driver.findElement(By.xpath("//a[contains(@href,'https://twitter.com/orangehrm?lang=en')]")).click();
         driver.findElement(By.xpath("//a[contains(@href,'https://www.youtube.com/c/OrangeHRMInc')]")).click();
 
@@ -36,7 +36,7 @@ public class SwitchToSpecificWindow {
         System.out.println("finally swithed to second tab:");
         System.out.println("finally swithed to second tab:");
         System.out.println("finally swithed to second tab:");
-        System.out.println("finally swithed to second tab:");
+        System.out.println("finally swithed");
           
 	}
 }
