@@ -23,7 +23,7 @@ public class SwitchToSpecificWindow {
         driver.findElement(By.xpath("(//a[contains(@href,'https://www.facebook.com/OrangeHRM/')])[1]")).click();
 //        driver.findElement(By.xpath("(//a[contains(@href,'https://www.facebook.com/OrangeHRM/')])[2]")).click();
         driver.findElement(By.xpath("//a[contains(@href,'https://twitter.com/orangehrm?lang=en')]")).click();
-        driver.findElement(By.xpath("//a[contains(@href,'https://www.youtube.com/c/OrangeHRMInc')]")).click();
+//        driver.findElement(By.xpath("//a[contains(@href,'https://www.youtube.com/c/OrangeHRMInc')]")).click();
 
         List<String> windlist=new ArrayList<>(driver.getWindowHandles());
           driver.switchTo().window(windlist.get(6));
