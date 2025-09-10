@@ -29,7 +29,7 @@ public class SwitchToSpecificWindow {
         List<String> windlist=new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(windlist.get(3));  
         System.out.println("finally swithed to second tab:");
-       //lets merge our login branch code to main branch
+       
     
           
 	}
