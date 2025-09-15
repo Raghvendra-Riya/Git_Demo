@@ -28,7 +28,7 @@ public class SwitchToSpecificWindow {
 
 
         <String> windlist=new ArrayList<>(driver.getWindowHandles());  
-        driver.switchTo().window(windlist.get(3)); 
+        driver.switchTo().window(windlist.get(3)); ; 
 
         System.out.println("finally swithed to second tab:")
         
