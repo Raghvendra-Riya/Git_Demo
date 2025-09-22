@@ -21,6 +21,9 @@ import org.openqa.selenium.interactions.Actions;
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
+	
+		
+		
 	//@Test(enabled=true)
 //	public void demo() throws InterruptedException
 //	{
@@ -72,7 +75,7 @@ import org.openqa.selenium.interactions.Actions;
    //  id=test_123;
    
     //check with contains
-    driver.findElement(By.xpath("input[contains(@id,'test_')]"));
+    driver.findElement(By.xpath("//input[contains(@id,'test_')]"));
        
      //starts-with  
     //id=test_789
